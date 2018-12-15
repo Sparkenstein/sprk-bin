@@ -1,10 +1,21 @@
 {
   "name": "sprk-bin",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "sprk.pw upload util",
   "main": "index.js",
-  "author": "Sparkenstein",
+  "author": "Prabhanjan Padhye (@Sparkenstein)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sparkenstein/sprk-bin.git"
+  },
+  "keywords": [
+    "sprk",
+    "url shortner",
+    "sprk-bin",
+    "file uploader"
+  ],
+  "readmeFilename": "README.md",
   "bin": {
     "sprk": "./cli.js"
   },
