@@ -1,6 +1,6 @@
 {
   "name": "sprk-bin",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "description": "sprk.pw upload util",
   "main": "index.js",
   "author": "Prabhanjan Padhye (@Sparkenstein)",
