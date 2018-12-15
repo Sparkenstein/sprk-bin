@@ -1,0 +1,15 @@
+{
+  "name": "sprk-bin",
+  "version": "1.0.1",
+  "description": "sprk.pw upload util",
+  "main": "index.js",
+  "author": "Sparkenstein",
+  "license": "MIT",
+  "bin": {
+    "sprk": "./cli.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "form-data": "^2.3.3"
+  }
+}
