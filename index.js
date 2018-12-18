@@ -13,12 +13,12 @@ if(!fileName){
 }
 
 if(!URL){
-    console.error(`Server URL is not set, Please set ${SPRK_SERVER_URL} env variable`);
+    console.error(`Server URL is not set, Please set ${URL} env variable`);
     process.exit(0);
 }
 
-if(!SPRK_API_KEY){
-    console.error(`Server API key is not set, Please set ${SPRK_API_KEY} env variable.
+if(!apiKey){
+    console.error(`Server API key is not set, Please set ${apiKey} env variable.
     it can be anything but it should match the "sprk" instance API key you setup`);
     process.exit(0);
 }
